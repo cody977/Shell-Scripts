@@ -1,0 +1,13 @@
+Start-Process -FilePath "C:\Program Files\Google\Chrome\Application\chrome.exe" 
+
+Create a new txt file then type:
+Start-Process -"FilePath”
+Save text file as .ps1 extension. Ex: fileName.ps1
+Create shortcut
+Right click new shortcut and select “properties”
+Add the following in “Target”: -ExecutionPolicy Bypass -File "FileLocation"
+Run script
+Example:
+Start-Process -FilePath "C:\Program Files\Google\Chrome\Application\chrome.exe" 
+
+
